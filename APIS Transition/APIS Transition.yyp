@@ -30,6 +30,10 @@
     {"id":{"name":"par_ApisTransitionFade","path":"objects/par_ApisTransitionFade/par_ApisTransitionFade.yy",},},
     {"id":{"name":"sys_ApisTransition","path":"objects/sys_ApisTransition/sys_ApisTransition.yy",},},
     {"id":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
+    {"id":{"name":"rm_Hub","path":"rooms/rm_Hub/rm_Hub.yy",},},
+    {"id":{"name":"rm_Left","path":"rooms/rm_Left/rm_Left.yy",},},
+    {"id":{"name":"rm_Right","path":"rooms/rm_Right/rm_Right.yy",},},
+    {"id":{"name":"rm_Top","path":"rooms/rm_Top/rm_Top.yy",},},
     {"id":{"name":"ctor_ApisTransitionException","path":"scripts/ctor_ApisTransitionException/ctor_ApisTransitionException.yy",},},
     {"id":{"name":"funcs_ApisTransition","path":"scripts/funcs_ApisTransition/funcs_ApisTransition.yy",},},
     {"id":{"name":"spr_RoomButton","path":"sprites/spr_RoomButton/spr_RoomButton.yy",},},
@@ -38,6 +42,10 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_Demo","path":"rooms/rm_Demo/rm_Demo.yy",},},
+    {"roomId":{"name":"rm_Hub","path":"rooms/rm_Hub/rm_Hub.yy",},},
+    {"roomId":{"name":"rm_Left","path":"rooms/rm_Left/rm_Left.yy",},},
+    {"roomId":{"name":"rm_Right","path":"rooms/rm_Right/rm_Right.yy",},},
+    {"roomId":{"name":"rm_Top","path":"rooms/rm_Top/rm_Top.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
