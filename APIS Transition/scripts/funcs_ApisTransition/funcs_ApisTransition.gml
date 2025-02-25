@@ -5,13 +5,14 @@ function apis_transition_get_system() {
     return sys_ApisTransition.id;
 }
 
-function apis_transition_perform(_transition = undefined, _params = undefined) {
+function apis_transition_perform(_action = undefined, _transition = undefined, _params = undefined) {
     var _system = apis_transition_get_system();
     _transition = _transition ?? _system.default_transition;
+    
     var _instance = !is_undefined(_params)
         ? instance_create_layer(0, 0, _system.transition_layer, _transition, _params)
         : instance_create_layer(0, 0, _system.transition_layer, _transition);
     
-    _instance.perform();
+    _instance.perform(_action);
     return _instance;
 }

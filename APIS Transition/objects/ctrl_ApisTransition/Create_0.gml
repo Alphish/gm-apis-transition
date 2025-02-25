@@ -9,7 +9,8 @@ create_fade = function(_object, _params, _duration, _fadesout) {
     instance_create_layer(0, 0, layer, _object, _fadevars);
 }
 
-perform = function() {
+perform = function(_action = undefined) {
+    fadeout_action = _action ?? fadeout_action;
     create_fade(fadeout_object, fadeout_params, fadeout_duration, true);
 }
 
