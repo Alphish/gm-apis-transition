@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"APIS Transition",
-    "path":"APIS Transition.yyp",
+    "name":"Demo",
+    "path":"folders/Demo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

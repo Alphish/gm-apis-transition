@@ -8,8 +8,8 @@
   "name":"ctrl_Demo",
   "overriddenProperties":[],
   "parent":{
-    "name":"APIS Transition",
-    "path":"APIS Transition.yyp",
+    "name":"Demo",
+    "path":"folders/Demo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

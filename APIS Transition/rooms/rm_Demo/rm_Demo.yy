@@ -26,8 +26,8 @@
   ],
   "name":"rm_Demo",
   "parent":{
-    "name":"APIS Transition",
-    "path":"APIS Transition.yyp",
+    "name":"Demo",
+    "path":"folders/Demo.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
