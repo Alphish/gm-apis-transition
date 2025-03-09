@@ -3,7 +3,6 @@
   "%Name":"ctrl_ApisTransition",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"ctrl_ApisTransition",
@@ -13,7 +12,7 @@
     "path":"folders/_Packages/Alphish/APIS Transition.yy",
   },
   "parentObjectId":null,
-  "persistent":true,
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -31,9 +30,6 @@
     {"$GMObjectProperty":"v1","%Name":"fadeout_params","filters":[],"listItems":[],"multiselect":false,"name":"fadeout_params","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"fadeout_duration","filters":[],"listItems":[],"multiselect":false,"name":"fadeout_duration","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sys_ApisTransition.default_fade_duration","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"fadeout_action","filters":[],"listItems":[],"multiselect":false,"name":"fadeout_action","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
-    {"$GMObjectProperty":"v1","%Name":"target_room","filters":[
-        "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"target_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"fadein_object","filters":[],"listItems":[],"multiselect":false,"name":"fadein_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_ApisTransitionColorFade","path":"objects/obj_ApisTransitionColorFade/obj_ApisTransitionColorFade.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_ApisTransitionColorFade","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"fadein_params","filters":[],"listItems":[],"multiselect":false,"name":"fadein_params","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"fadein_duration","filters":[],"listItems":[],"multiselect":false,"name":"fadein_duration","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sys_ApisTransition.default_fade_duration","varType":0,},

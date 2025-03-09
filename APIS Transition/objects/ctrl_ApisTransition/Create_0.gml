@@ -9,13 +9,18 @@ create_fade = function(_object, _params, _duration, _fadesout) {
     instance_create_layer(0, 0, layer, _object, _fadevars);
 }
 
+with_data = function(_data) {
+    apis_transition_get_system().carryover_data = _data;
+    return id;
+}
+
 perform = function(_action = undefined) {
     fadeout_action = _action ?? fadeout_action;
     create_fade(fadeout_object, fadeout_params, fadeout_duration, true);
 }
 
 goto_room = function(_room) {
-    target_room = _room;
+    apis_transition_get_system().leave_to(_room, id);
     create_fade(fadeout_object, fadeout_params, fadeout_duration, true);
 }
 
@@ -27,12 +32,11 @@ on_fadeout = function() {
     if (!is_undefined(fadeout_action))
         fadeout_action();
     
-    if (is_undefined(target_room))
-        create_fadein();
-    else if (target_room != room)
-        room_goto(target_room);
+    var _system = apis_transition_get_system();
+    if (_system.room_transition == id)
+        _system.change_room();
     else
-        room_restart();
+        create_fadein();
 }
 
 create_fadein = function() {
@@ -42,4 +46,6 @@ create_fadein = function() {
 on_fadein = function() {
     if (!is_undefined(fadein_action))
         fadein_action();
+    
+    instance_destroy();
 }

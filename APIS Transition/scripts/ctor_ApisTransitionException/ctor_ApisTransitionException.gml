@@ -31,3 +31,10 @@ ApisTransitionException.transition_not_linked = function() {
         $"The transition fade is not linked to the transition instance. It must be linked via 'transition' variable of the new fade instance."
         );
 }
+
+ApisTransitionException.multiple_room_transitions = function(_prevtarget, _newtarget) {
+    return new ApisTransitionException(
+        $"apis_transition_multiple_room_transitions",
+        $"Attempting to make a room transition to {room_get_name(_newtarget)} when a transition to {room_get_name(_prevtarget)} has already begun."
+        );
+}
