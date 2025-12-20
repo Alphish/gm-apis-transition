@@ -1,5 +1,5 @@
 /// @desc Setting up layer and room info
-transition_layer = layer_create(transition_depth, "APIS_Transitions");
+transition_layer = layer_create(transition_depth, "APIS_Transition");
 
 if (instance_exists(room_transition)) {
     room_transition.persistent = false;
