@@ -1,6 +1,3 @@
-fadeout_created = false;
-fadein_created = false;
-
 create_fade = function(_object, _params, _duration, _fadesout) {
     var _fadevars = !is_undefined(_params) ? variable_clone(_params, 1) : {};
     _fadevars[$ "transition"] = id;
